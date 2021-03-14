@@ -1,0 +1,44 @@
+/*
+ * Xander Van Rompaye
+ * 2020-2021
+ */
+* {
+    -fx-font: bold italic 18 "LucidaBrightDemiBold";
+}
+
+.button, .combo-box{
+    -fx-border-color: black;
+    -fx-border-radius: 8;
+    -fx-padding: 6 6 6 6;
+    -fx-font: bold italic 20pt "LucidaBrightDemiBold";
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, black, 10, 0.5, 0.0, 0.0);
+}
+
+.text-field {
+    -fx-alignment: center;
+}
+
+.progress-bar {
+    -fx-background-insets: 0, 1;
+
+}
+
+.progress-bar .bar {
+    -fx-background-insets: 0, 1, 2;
+    -fx-padding: 0.416667em; /* 5 */
+}
+
+.progress-bar .track {
+    -fx-background-insets:  0, 1;
+}
+
+.toggle-button {
+    -fx-border-color: black;
+    -fx-border-radius: 8;
+    -fx-padding: 6 6 6 6;
+}
+
