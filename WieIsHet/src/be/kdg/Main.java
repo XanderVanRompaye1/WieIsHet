@@ -1,9 +1,9 @@
 package be.kdg;
 
-import be.kdg.model.WieIsHet;
-import be.kdg.view.music.Music;
-import be.kdg.view.optiesView.OptiesPresenter;
-import be.kdg.view.optiesView.OptiesView;
+import model.WieIsHet;
+import view.music.Music;
+import view.optiesView.OptiesPresenter;
+import view.optiesView.OptiesView;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
