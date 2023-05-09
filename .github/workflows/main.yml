@@ -23,12 +23,9 @@ jobs:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         run: echo "::add-path::$(pwd)/codeql:$PATH"
 
-      - name: Install Python 3
-        run: sudo apt-get install python3
-
       - name: Create CodeQL database
         run: |
-          codeql database create my-database --language=python --source-root=./
+          codeql database create my-database --language=java --source-root=./
 
       - name: Run custom queries
         run: |
