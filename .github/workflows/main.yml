@@ -25,7 +25,7 @@ jobs:
 
       - name: Create CodeQL database
         run: |
-          codeql database create my-database --language=java --source-root="./src" --build-command="javac"
+          codeql database create my-database --language=java --source-root="./WieIsHet/src/be/kdg/" --build-command="javac"
 
       - name: Run custom queries
         run: |
