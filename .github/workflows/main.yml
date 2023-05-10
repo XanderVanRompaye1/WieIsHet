@@ -25,7 +25,7 @@ jobs:
 
       - name: Create CodeQL database
         run: |
-          codeql database create my-database --language=java --source-root="./WieIsHet/" --command="javac /home/runner/work/WieIsHet/WieIsHet/WieIsHet/src/be/kdg/Main.java"
+          codeql database create my-database --language=java --source-root="./WieIsHet/" --command="mvn package"
 
       - name: Run custom queries
         run: |
